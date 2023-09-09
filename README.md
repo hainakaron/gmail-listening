@@ -54,7 +54,7 @@ This service account will  be responsible for accessing the GMail account
 12. You should then see something like this '{ expiration: '1694875429850', historyId: '60864326' }' on the Execution log indicating that the enrolment is successful
 13. Click Deploy -> New Deployment
 14. Click Gear Icon for the type, then select Web app
-15. Give it a description such as V1 then click Deploy
+15. Give it a description such as V1 then, then choose Anyone for Who has access, then click Deploy
 16. Copy the Web app URL, open a new tab on the browser and load the URL - a new url will be generated
 17. Copy the generated URL and go to Pub/Sub
 18. Under the topic created in the previous section, create a Subscription. 
