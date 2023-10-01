@@ -1,7 +1,8 @@
-This project peeks on emails in a Gmail account and logs on Google Sheet
+This project peeks on sent emails in a Gmail account and logs it on Google Sheet.
 It uses Google Cloud Run to host a Flask app that contains the callback of one of the functions in the Google Apps Script project
 The callback checks the sent emails and its body, then saves it on the log that is a Google Sheet
 
+HOW TO SETUP
 # Google Cloud Console
 1. Create a project and enable billing. Refer to https://developers.google.com/workspace/guides/get-started
 2. Grab the Project ID, you will need this on # Google Apps Script# Google Apps Script section
